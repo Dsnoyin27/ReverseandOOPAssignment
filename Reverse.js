@@ -11,8 +11,8 @@ if(str.replace(/[\W_]/g, '').toLowerCase() === str.replace(/[\W_]/g, '').toLower
 // this code reverses a string
   var splits = str.split("");
   var reverse= splits.reverse("");
-  var joinArray= reverse.join("");
-  return joinArray;
+  var joinString= reverse.join("");
+  return joinString;
 }
 
 reverseString("car");
